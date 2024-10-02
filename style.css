@@ -349,8 +349,8 @@ h3.my-profession
 }
 
 .home .home-img {
-    flex: 0 0 30%;       /* Reduced from 40% to 30% */
-    max-width: 30%;      /* Reduced from 40% to 30% */
+    flex: 0 0 50%;       /* Reduced from 40% to 30% */
+    max-width: 50%;      /* Reduced from 40% to 30% */
     text-align: center;
     position: relative;
 }
@@ -380,7 +380,7 @@ h3.my-profession
 .home .home-img img {
     margin: auto;
     border-radius: 5px;
-    height: 300px;       /* Reduced from 400px to 300px */
+    height: 500px;       /* Reduced from 400px to 300px */
 }
 
 /* About */
