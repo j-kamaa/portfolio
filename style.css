@@ -342,47 +342,47 @@ h3.my-profession
 {
     color: var(--skin-color);
 }
-.home-info p
-{
-    margin-bottom: 70px;
-    font-size: 20px;
+.home-info p {
+    margin-bottom: 40px; /* Reduced from 70px to 40px */
+    font-size: 18px;     /* Reduced from 20px to 18px */
     color: var(--text-black-700);
 }
+
 .home .home-img {
-    flex: 0 0 40%;
-    max-width: 40%;
+    flex: 0 0 30%;       /* Reduced from 40% to 30% */
+    max-width: 30%;      /* Reduced from 40% to 30% */
     text-align: center;
     position: relative;
 }
-.home-img::after
-{
+
+.home-img::after {
     content: '';
     position: absolute;
-    height: 60px;
-    width: 60px;
-    border-bottom: 10px solid var(--skin-color);
-    border-right: 10px solid var(--skin-color);
+    height: 40px;        /* Reduced from 60px to 40px */
+    width: 40px;         /* Reduced from 60px to 40px */
+    border-bottom: 5px solid var(--skin-color); /* Reduced border width */
+    border-right: 5px solid var(--skin-color);  /* Reduced border width */
     right: 20px;
     bottom: -0px;
 }
-.home-img::before
-{
+
+.home-img::before {
     content: '';
     position: absolute;
-    height: 60px;
-    width: 60px;
-    border-top: 10px solid var(--skin-color);
-    border-left: 10px solid var(--skin-color);
+    height: 40px;        /* Reduced from 60px to 40px */
+    width: 40px;         /* Reduced from 60px to 40px */
+    border-top: 5px solid var(--skin-color); /* Reduced border width */
+    border-left: 5px solid var(--skin-color); /* Reduced border width */
     left: 20px;
     top: -40px;
 }
-.home .home-img img
-{
+
+.home .home-img img {
     margin: auto;
     border-radius: 5px;
-    height: 300px;
-    
+    height: 300px;       /* Reduced from 400px to 300px */
 }
+
 /* About */
 .about .about-content
 {
